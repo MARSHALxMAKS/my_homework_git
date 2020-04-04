@@ -1,0 +1,149 @@
+* {
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   }
+
+body {
+    background-color: rgb(176, 124, 247);
+}
+
+
+
+
+.container {
+    width: 90%;
+    
+    max-width: 1170px;
+    margin: 0 auto;
+   
+  
+}
+
+.zagolovok {
+    margin-top: 81.5px;
+    padding-bottom: 22.5px;
+    text-align: center;
+    margin-left: -18px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-bottom: 51px;
+
+   padding-left: 255px;
+   padding-right: 305px;
+   
+   line-height: 25.5px;
+   padding-bottom: 45px;
+}
+
+
+
+.flex-container {
+    display: inline-flex;
+    width: 1170px;
+    justify-content: space-between;
+    margin-left: -8px;
+    
+
+}
+
+.flex-element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    position: relative;
+    justify-content: space-between;
+    z-index: 200;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.flex-element:first-child>.ramka {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    z-index: 2;
+    border: 0px solid black; /* Параметры границы */
+    background: #262626; /* Цвет фона */
+    width: 60px; /* Ширина рамки */
+    height: 60px; /* Высота рамки */
+    
+    
+    
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+.ramka>div:first-child {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.ramka>div:last-child {
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+
+}
+
+.flex-element>.stroka-green {
+    position: absolute;
+   
+    left: 19px;
+    bottom: 16px;
+    z-index: 2;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+
+}
+
+.flex-element>.stroka-green>div:first-child {
+    padding-bottom: 26px;
+}
+
+.flex-element>.stroka-green>div:last-child {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
+}
+
+
+img {
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+}
+
