@@ -1,0 +1,267 @@
+* {
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   .flex-container {
+       max-width: 1200px;
+       width: 80%;
+       background-color: rgb(213 222 126);
+       display: -webkit-inline-flex;
+       display: flex; 
+       flex-direction: row;
+       justify-content: space-between;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-top: 79px;
+       padding-bottom: 79px;
+       flex-wrap: wrap;
+      
+  
+   }
+   
+
+   
+
+   .flex-element {
+       width: 360px;
+       height: 442px;
+       border: 4px solid #fff;
+       border-radius: 4px;
+       background-color: #fff;
+       display: flex; 
+       flex-direction: column;
+       flex-basis: auto;
+       align-self: center;
+
+  
+   }
+
+
+
+   span:first-child {
+       font-size: 70px;
+       color: rgb(2 153 91); 
+       font-family: 'Lato';
+       font-weight: normal;
+       font-style: normal;
+       justify-content: space-evenly;
+   
+}
+
+
+------------------------------------------------------------------------------------------------------
+
+* {
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+    
+   }
+
+
+   .flex-container {
+       max-width: 1200px;
+       width: 90%;
+       
+       background-color: rgb(253 222 126);
+       display: -webkit-inline-flex;
+       display: flex; 
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-top: 79px;
+       padding-bottom: 79px;
+       
+      
+  
+   }
+   
+   @font-face {
+       font-family: 'Miso';
+src: url(/assets/fonts/Miso.woff);
+src: url(/assets/fonts/Miso.woff2);
+   }
+   
+
+   .flex-element {
+       width: 360px;
+       height: 442px;
+       border: 0px solid #fff;
+       border-radius: 4px;
+       background-color: #fff;
+      
+       
+       align-content: center;
+       align-self: center;
+       justify-content: space-around;
+       list-style: none;
+
+       font-family: 'Miso', sans-serif;
+       src: url(/assets/fonts/Miso.woff);
+       src: url(/assets/fonts/Miso.woff2);
+
+
+  
+   }
+
+   .flex-element:nth-child(2) {
+       height: 440px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+
+       
+       
+   }
+
+
+
+div {
+    text-align: center;
+    
+}
+
+
+.flex-element:nth-child(2)>div:first-child {
+    padding-top: 10px;
+}
+    
+.flex-element:nth-child(2)>div:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+    
+    
+
+
+.flex-element>div:nth-child(2) {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+
+
+
+.flex-element>div:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+
+.flex-element:nth-child(3)>div:first-child {
+    margin-top: 30px;
+}
+
+
+.flex-element:nth-child(3)>div:nth-child(2) {
+    margin-top: 0px;
+}
+
+
+    
+
+.flex-element:first-child>div:first-child {
+       font-size: 70px;
+       color: rgb(2 153 91); 
+       font-family: 'Miso', sans-serif;
+       src: url(/assets/fonts/Miso.woff);
+       src: url(/assets/fonts/Miso.woff2);
+       padding-top: 30px;
+       
+
+       font-weight: normal;
+       font-style: normal;
+}
+
+.flex-element:first-child>div:nth-child(3) {
+    font-size: 56px;
+    color: rgb(51 51 51); 
+    font-family: 'Miso', sans-serif;
+    src: url(/assets/fonts/Miso.woff);
+    src: url(/assets/fonts/Miso.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-element:first-child>div:last-child {
+    font-size: 20px;
+    color: rgb(110 110 110); 
+    font-family: 'Lato', sans-serif;
+    src: url(/assets/fonts/Miso.woff);
+    src: url(/assets/fonts/Miso.woff2);
+    font-weight: normal;
+    font-style: normal;
+    word-spacing: 3px;
+}
+
+.flex-element:nth-child(2)>div:first-child {
+    font-size: 70px;
+    color: rgb(2 153 91); 
+    font-family: 'Miso', sans-serif;
+    src: url(/assets/fonts/Miso.woff);
+    src: url(/assets/fonts/Miso.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-element:nth-child(2)>div:nth-child(3) {
+ font-size: 56px;
+ color: rgb(51 51 51); 
+ font-family: 'Miso', sans-serif;
+ src: url(/assets/fonts/Miso.woff);
+ src: url(/assets/fonts/Miso.woff2);
+ font-weight: normal;
+ font-style: normal;
+}
+
+.flex-element:nth-child(2)>div:last-child {
+ font-size: 20px;
+ color: rgb(110 110 110); 
+ font-family: 'Lato', sans-serif;
+ src: url(/assets/fonts/Miso.woff);
+ src: url(/assets/fonts/Miso.woff2);
+ font-weight: normal;
+ font-style: normal;
+ padding-bottom: 50px;
+ word-spacing: 3px;
+ 
+}
+
+.flex-element:last-child>div:first-child {
+    font-size: 70px;
+    color: rgb(2 153 91); 
+    font-family: 'Miso', sans-serif;
+    src: url(/assets/fonts/Miso.woff);
+    src: url(/assets/fonts/Miso.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-element:last-child>div:nth-child(3) {
+ font-size: 56px;
+ color: rgb(51 51 51); 
+ font-family: 'Miso', sans-serif;
+ src: url(/assets/fonts/Miso.woff);
+ src: url(/assets/fonts/Miso.woff2);
+ font-weight: normal;
+ font-style: normal;
+}
+
+.flex-element:last-child>div:last-child {
+ font-size: 20px;
+ color: rgb(110 110 110); 
+ font-family: 'Lato', sans-serif;
+ src: url(/assets/fonts/Miso.woff);
+ src: url(/assets/fonts/Miso.woff2);
+ font-weight: normal;
+ font-style: normal;
+ word-spacing: 3px;
+}
+

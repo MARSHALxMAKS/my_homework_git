@@ -1,0 +1,149 @@
+* {
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+    
+   }
+
+
+   .flex-container {
+       max-width: 1200px;
+       width: 90%;
+       
+       background-color: rgb(253 222 126);
+   
+       display: -webkit-inline-flex;
+       display: flex; 
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-top: 79.5px;
+       padding-bottom: 51px;
+       
+      
+  
+   }
+   
+   @font-face {
+       font-family: 'Miso';
+src: url(/assets/fonts/Miso.woff);
+src: url(/assets/fonts/Miso.woff2);
+   }
+   
+
+   .flex-element {
+       width: 360px;
+       height: 442px;
+      
+      
+       
+
+       border: 0px solid #fff;
+       border-radius: 4px;
+       background-color: #fff;
+      
+       
+       align-content: center;
+       align-self: center;
+       justify-content: space-around;
+       list-style: none;
+
+       font-family: 'Miso', sans-serif;
+       src: url(/assets/fonts/Miso.woff);
+       src: url(/assets/fonts/Miso.woff2);
+
+       text-align: center;
+
+      
+       
+
+  
+   }
+
+
+   .flex-element>div:first-child {
+    font-size: 70px;
+    color: rgb(2 153 91); 
+    font-family: 'Miso', sans-serif;
+    src: url(/assets/fonts/Miso.woff);
+    src: url(/assets/fonts/Miso.woff2);
+    padding-top: 30px;
+    
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-element>div:nth-child(2) {
+    margin-top: 13px;
+    margin-bottom: 22px;
+    padding-left: 15px;
+}
+
+
+.flex-element>div:nth-child(3) {
+    font-size: 56px;
+    color: rgb(51 51 51); 
+    font-family: 'Miso', sans-serif;
+    src: url(/assets/fonts/Miso.woff);
+    src: url(/assets/fonts/Miso.woff2);
+    font-weight: normal;
+    font-style: normal;
+
+    margin-bottom: 20px;
+
+    letter-spacing: -0.6px;
+
+}
+
+.flex-element>div:last-child {
+    font-size: 20px;
+    color: rgb(110 110 110); 
+    font-family: 'Lato', sans-serif;
+   
+    font-weight: normal;
+    font-style: normal;
+   
+    line-height: 24px;
+    
+    word-spacing: 3px;
+    
+}
+
+.flex-element:nth-child(2) {
+    height: 500px;
+    
+}
+
+
+.flex-element:nth-child(2)>div:first-child {
+    padding-top: 40px;
+    
+}
+
+.flex-element:nth-child(2)>div:nth-child(2) {
+    margin-top: 33px;
+    margin-bottom: 32px;
+}
+
+
+.flex-element:nth-child(2)>div:last-child {
+  
+    padding-bottom: 50px;
+    word-spacing: 3px;
+    
+   }
+
+.flex-element:last-child>div:first-child {
+    letter-spacing: -2.0px;
+    
+}
+
+.flex-element:last-child>div:last-child {
+    
+    line-height: 26px;
+    
+}
