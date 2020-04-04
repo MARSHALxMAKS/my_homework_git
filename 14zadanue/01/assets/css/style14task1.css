@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.obertka {
+  padding: 110px 0px 94px 0px;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1140px;
+}
+header {
+  text-transform: uppercase;
+  padding-bottom: 49.5px;
+}
+header p {
+  font-family: 'Raleway', sans-serif;
+  color: #898f8f;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 2px;
+  letter-spacing: 0.4px;
+}
+header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #ffcc00;
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+header .border .ogonek {
+  margin: auto;
+  position: relative;
+}
+header .border .ogonek::before {
+  content: "";
+  display: block;
+  width: 450px;
+  height: 1px;
+  background-color: #ffcc00;
+  position: absolute;
+  left: 50%;
+  margin-left: -225px;
+}
+header .border .ogonek::after {
+  content: "";
+  display: block;
+  background-image: url(../img/ogonek.png);
+  width: 30px;
+  height: 19px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  top: -8px;
+}
+.flex-container {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1005px;
+  justify-content: space-between;
+}
+.flex-element:first-child {
+  display: flex;
+  position: relative;
+  padding-top: 89px;
+  padding-bottom: 81px;
+  width: 418px;
+}
+.flex-element:first-child .obertka1 {
+  position: relative;
+  margin: auto;
+}
+.flex-element:first-child .obertka1 .verh {
+  position: absolute;
+}
+.flex-element:first-child .obertka1 .verh .nuz {
+  position: absolute;
+}
+.flex-element:first-child .obertka1 .verh .nuz:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 1px solid #ffcc00;
+  border-bottom: 1px solid #ffcc00;
+  height: 100px;
+  width: 100px;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -209px;
+}
+.flex-element:first-child .obertka1 .verh .nuz:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-right: 1px solid #ffcc00;
+  border-bottom: 1px solid #ffcc00;
+  height: 100px;
+  width: 100px;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -209px;
+  margin-right: -418px;
+}
+.flex-element:first-child .obertka1 .verh:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 1px solid #ffcc00;
+  border-top: 1px solid #ffcc00;
+  height: 100px;
+  width: 100px;
+  left: 0;
+  top: 0;
+  margin-top: -209px;
+}
+.flex-element:first-child .obertka1 .verh:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-right: 1px solid #ffcc00;
+  border-top: 1px solid #ffcc00;
+  height: 100px;
+  width: 100px;
+  left: 0;
+  top: 0;
+  margin-top: -209px;
+  margin-left: 316px;
+}
+.flex-element:first-child .foto {
+  border: 1px solid #ffcc00;
+  height: 390px;
+  width: 390px;
+}
+.flex-element:last-child {
+  display: flex;
+  position: relative;
+  width: 505px;
+  border-left: 1px solid #ffcc00;
+}
+.flex-element:last-child .obertka2 {
+  display: block;
+  padding-top: 87px;
+  padding-left: 82px;
+  text-align: center;
+  width: 422px;
+  margin: 0 auto;
+}
+.flex-element:last-child .obertka2 .zagolovok {
+  display: f;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #666666;
+  letter-spacing: 0.7px;
+  margin-bottom: 25px;
+  /*margin-left: 82px;*/
+}
+.flex-element:last-child .obertka2 .zagolovok:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 1px solid #ffcc00;
+  width: 100px;
+  left: 0;
+  top: 0;
+  margin-top: 156px;
+  margin-left: 239px;
+}
+.flex-element:last-child .obertka2 p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 30px;
+  /*margin-left: 82px;*/
+  margin-bottom: 29px;
+}
+.flex-element:last-child .obertka2 .ukonku {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 135px;
+  list-style: none;
+  margin: 0 103px;
+}
+.flex-element:last-child .obertka2 .ukonku li {
+  border: 2px solid #cccccc;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  justify-content: space-between;
+  /*padding: 0 144px;*/
+}
+.flex-element:last-child .obertka2 .ukonku li img {
+  width: 15x;
+  height: 15px;
+  position: absolute;
+  left: 25%;
+  bottom: 25%;
+}
+.flex-element:last-child .obertka2 .text {
+  font-size: 14px;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  width: 422px;
+  margin-left: -42px;
+  margin-bottom: 16px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+.flex-element:last-child .obertka2 .border_elements {
+  content: "";
+  display: block;
+  position: relative;
+  margin-left: 160px;
+  border-bottom: 4px solid #ffcc00;
+  width: 20px;
+  margin-bottom: 26px;
+}
+.flex-element:last-child .obertka2 .border_elements::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 4px solid #ffcc00;
+  width: 10px;
+  left: 0;
+  top: 0;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+.flex-element:last-child .obertka2 .border_elements::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 4px solid #ffcc00;
+  width: 10px;
+  left: 0;
+  top: 0;
+  margin-top: 0px;
+  margin-left: 25px;
+}
+.flex-element:last-child .obertka2 button {
+  width: 120px;
+  height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #fff;
+  border: 1px solid #ffcc00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all, 0.2s ease;
+}
+.flex-element:last-child .obertka2 button:hover {
+  background-color: #ffcc00;
+  font-weight: 700;
+  border-color: #333333;
+  color: #fff;
+}
+.tag {
+  color: navy;
+  /* Цвет текста */
+  font-family: monospace;
+  /* Моношириный шрифт */
+  border-bottom: 1px solid #ffcc00;
+  padding-bottom: 25px;
+}
+.tag:before {
+  content: url(../img/ogonek.png);
+  /* Добавляем перед текстом открывающую кавычку */
+}
+.tag:after {
+  /* Добавляем после текста закрывающую кавычку */
+  content: ' (' attr(border-bottom) ')';
+  border-bottom: 1px solid #ffcc00;
+}
+.tag {
+  color: navy;
+  /* Цвет текста */
+  font-family: monospace;
+  /* Моношириный шрифт */
+  quotes: "<" ">";
+  /* Устанавливаем вид кавычек */
+}
+.tag::before {
+  content: open-quote;
+  /* Добавляем перед текстом открывающую кавычку */
+}
+.tag::after {
+  content: close-quote;
+  /* Добавляем после текста закрывающую кавычку */
+}
