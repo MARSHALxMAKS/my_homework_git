@@ -1,0 +1,161 @@
+* {
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+.container {
+    width:90%;
+    
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.container>h1>i {
+    color: #fff;
+}
+
+.container>ul>li>span {
+    text-align: center;
+}
+
+body {
+    background-color: #2b81ac;
+    
+}
+
+header {
+    padding-top: 30px;
+    background-color: #3399cc;
+    margin: 20px 20px 0px 20px;
+    font-size: 20px;
+    font-style: Lucida Sans Unicode, Lucida Grande, arial; 
+    text-align: left;
+    color: #fff;
+}
+
+header>h1>i:first-child {
+    font-size: 22px;
+    color: #fff;
+}
+
+h1 { 
+    font-size: 24px;
+}
+
+main {
+    background-color: #3399cc;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    font-style: Lucida Sans Unicode, Lucida Grande, arial; 
+    padding-top: 40px;
+}
+
+ul {
+    
+    list-style: none;
+    color: #fff;
+    font-size: 0px;
+    height: 500px;
+    border: 3px solid #fff; 
+    box-sizing: border-box; 
+    
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #fff;
+    width: 25%;
+    font-size: 22px;
+    padding: 30px;
+    height: 25%;
+}
+
+
+ul>li:first-child {
+    width: 50%;
+    background-color: #3399cc;
+}
+
+li:nth-child(2) {
+    
+    background-color: #3cc;
+}
+
+li:nth-child(3) {
+   
+    background-color: #969;
+}
+
+li:nth-child(4) {
+   
+    background-color: #c24747;
+}
+
+li:nth-child(5) {
+    
+    background-color: #e2674a;
+}
+
+li:nth-child(6) {
+  
+    background-color: #ffcc66;
+}
+
+li:nth-child(7) {
+    
+    background-color: #9c9;
+}
+
+li:nth-child(8) {
+    
+    background-color: #699;
+}
+
+li:nth-child(9) {
+    width: 50%;
+    background-color: #c69;
+}
+
+li:nth-child(10) {
+    
+    background-color: #396;
+}
+
+ul>li:last-child {
+    width: 100%;
+    background-color: #669;
+}
+
+
+
+
+ul>li>span>a, i {
+    color: #fff8;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+
+ul:hover li:not(:hover) {
+    opacity: 0.7;
+}
+
+
+footer{
+    background-color: #3399cc;
+    margin: 0px 20px 0px 20px;
+    text-align: left;
+    font-style: Lucida Sans Unicode, Lucida Grande, arial;
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+
+
