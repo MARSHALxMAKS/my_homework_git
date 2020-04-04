@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="assets/plugins/jquery.formstyler.min.js"></script>
+    <link href="assets/css/style12task1.css" rel="stylesheet">
+    <title>Lesson12Task1</title>
+</head>
+
+<body>
+
+
+
+    <div class="contacts_wrapper">
+        <div class="container">
+            <header>
+                <h2>Contact</h2>
+                <p>For new projects, ideas, business or anything youd like to discuss, contact with me!</p>
+            </header>
+
+            <main class="flex-container">
+                <div class="flex-element">
+                    <form action="form_groope">
+
+                        <div><input minlength="3" type="text" id="Your name and surname..."
+                                placeholder="Your name and surname..." required>
+                        </div>
+                        <div><input type="email" name="email-address" required placeholder="Your email..."></div>
+                        <div><input type="tel" id="phone" required placeholder="Your phone number..."></div>
+                        <div><textarea placeholder="Your message..."></textarea></div>
+
+                        <button name="submit">
+                            Send Us
+                        </button>
+
+                    </form>
+                </div>
+
+                <div class="flex-element">
+                    <dl>
+                        <dt>Address</dt>
+                        <dd>123 City name, Street, City, Country</dd>
+                        <dt>Email</dt>
+                        <dd>cahee@domain.com</dd>
+                        <dt>Phone</dt>
+                        <dd>+012 345 6789</dd>
+                    </dl>
+
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="flex-container">
+
+                <div class="l">© 2015 Company. All right reserved.</div>
+                <div class="c">Cahee</div>
+                <div class="r">Made with <span>love</span> by Auskteez </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/plugins/jquery.mask.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#phone").mask('+38 (099) 999 99 99');
+        });
+    </script>
+
+</body>
+
+</html>
