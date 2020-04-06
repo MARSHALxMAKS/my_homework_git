@@ -18,7 +18,7 @@ body {
   align-items: center;
   color: #fff;
   padding: 100px 0 100px 0;
-  font-style: Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .flex-container {
   display: flex;
@@ -27,6 +27,10 @@ body {
 }
 .flex-element {
   margin: 1%;
+}
+.flex-element b {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 h1 {
   font-size: 40px;
@@ -37,11 +41,13 @@ ul {
 }
 li {
   list-style: none;
+  margin-bottom: 5px;
 }
-img {
-  width: 250px;
-  height: 250px;
-}
+/*img {
+    width: 250px;
+    height: 250px;
+}*/
 a {
   color: #ff0;
+  font-size: 15px;
 }
