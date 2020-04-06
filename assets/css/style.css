@@ -15,8 +15,18 @@ body {
 }
 .wraper {
   text-align: center;
+  align-items: center;
   color: #fff;
   padding: 100px 0 100px 0;
+  font-style: Arial, sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-element {
+  margin: 1%;
 }
 h1 {
   font-size: 40px;
@@ -24,6 +34,13 @@ h1 {
 }
 ul {
   list-style: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 250px;
+  height: 250px;
 }
 a {
   color: #ff0;
