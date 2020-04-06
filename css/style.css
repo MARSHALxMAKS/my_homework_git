@@ -8,3 +8,6 @@
   width: 90%;
   max-width: 1200px;
 }
+ul {
+  list-style: none;
+}
